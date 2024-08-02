@@ -1,0 +1,589 @@
+* {
+    margin: 0%;
+}
+
+@font-face {
+    font-family: Poppins;
+    src: url(Fonts/Poppins-Light.ttf);
+}
+
+@font-face {
+    font-family: Domine;
+    src: url(Fonts/Domine/Domine-Regular.ttf);
+}
+
+@font-face {
+    font-family: Gupter;
+    src: url(Fonts/Gupter/Gupter-Regular.ttf);
+}
+
+.Header {
+    background-color: black;
+    width: 100%;
+    height: 72px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    z-index: 999;
+
+}
+
+.language ul {
+    color: #919191;
+    font-family: Poppins;
+    font-size: 11.5px;
+    list-style: none;
+    gap: 15px;
+    display: flex;
+    position: absolute;
+    left: -4px;
+    top: 28px;
+    cursor: pointer;
+
+}
+
+
+.provide {
+    color: #919191;
+    font-family: Poppins;
+    font-size: 11.5px;
+    list-style: none;
+    gap: 15px;
+    display: flex;
+    position: absolute;
+    left: 200px;
+    top: 28px;
+    cursor: pointer;
+}
+
+
+.logo {
+    background-image: url(Images/Mercedes\ Logo.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    top: 15px;
+    left: auto 50%;
+    cursor: pointer;
+
+}
+
+.search ul {
+    color: #919191;
+    font-family: Poppins;
+    font-size: 11.5px;
+    list-style: none;
+    gap: 60px;
+    display: flex;
+    position: absolute;
+    right: 90px;
+    top: 28px;
+    cursor: pointer;
+
+}
+
+
+.picture-1 {
+    width: 100%;
+    height: 650px;
+    background-image: url(Images/G\ Wagon\ Green.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+    position: relative;
+
+
+
+}
+
+.DropBox {
+    background-color: rgb(0, 0, 0);
+    opacity: 0.8;
+    width: 100%;
+    height: 65px;
+    z-index: 2;
+    position: relative;
+    top: 72px;
+
+}
+
+.DropBox ul {
+    height: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #919191;
+    list-style: none;
+    gap: 55px;
+    font-size: 11.5px;
+    font-family: Poppins;
+    font-weight: bolder;
+    cursor: pointer;
+
+}
+
+.in-picture-text {}
+
+#heading {
+    color: white;
+    position: absolute;
+    font-size: 35px;
+    font-weight: bold;
+    top: 270px;
+    left: 120px;
+
+}
+
+
+#para {
+    color: white;
+    position: absolute;
+    font-family: Poppins;
+    font-size: 18px;
+    top: 370px;
+    left: 120px;
+
+}
+
+.btn {
+    background-color: white;
+    border-radius: 20px;
+    border: none;
+    width: 160px;
+    height: 35px;
+    position: absolute;
+    top: 420px;
+    left: 120px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.btn p {
+    font-size: 14px;
+    font-family: Poppins;
+    position: relative;
+    left: 7px;
+    cursor: pointer;
+}
+
+.btn div {
+    width: 20px;
+    height: 20px;
+    background-image: url(Images/Right\ dropdown\ icon.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    right: -20px;
+    cursor: pointer;
+
+}
+
+#desp {
+    font-family: Poppins;
+    color: rgb(184, 170, 170);
+    font-size: 13px;
+    font-family: Poppins;
+    position: absolute;
+    left: 120px;
+    bottom: 15px;
+}
+
+.language ul:hover {
+    color: white;
+    transition: 1s;
+
+}
+
+.provide:hover {
+    color: white;
+    transition: 1s;
+
+}
+
+.search ul:hover {
+    color: white;
+    transition: 1s;
+
+}
+
+.DropBox ul:hover {
+    color: white;
+
+
+}
+
+.btn:hover {
+    color: white;
+    background-color: rgb(109, 81, 235);
+
+
+}
+
+.picture-2 {
+
+    width: 100%px;
+    height: 600px;
+    background-image: url(Images/picture-2.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+}
+
+#desp-2 {
+    font-family: Poppins;
+    color: rgb(255, 255, 255);
+    font-size: 13px;
+    font-family: Poppins;
+    position: absolute;
+    left: 120px;
+    margin-top: 520px;
+
+
+}
+
+#pic-2-heading {
+    color: white;
+    position: absolute;
+    font-size: 35px;
+    font-weight: bold;
+    top: 230px;
+    left: 120px;
+}
+
+
+.pic-2-btn {
+    background-color: white;
+    border-radius: 20px;
+    border: none;
+    width: 160px;
+    height: 35px;
+    position: absolute;
+    top: 300px;
+    left: 120px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+
+.pic-2-btn p {
+    font-size: 14px;
+    font-family: Poppins;
+    position: relative;
+    left: 7px;
+    cursor: pointer;
+}
+
+.pic-2-btn div {
+    width: 20px;
+    height: 20px;
+    background-image: url(Images/Right\ dropdown\ icon.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    right: -20px;
+    cursor: pointer;
+
+}
+
+
+.pic-2-btn:hover {
+    color: white;
+    background-color: rgb(109, 81, 235);
+}
+
+.cards {
+    /* background-color: red; */
+    width: 100%;
+    height: 1600px;
+    position: relative;
+}
+
+.card1 {
+    background-image: url(Images/card\ picture.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 330px;
+    height: 420px;
+    position: absolute;
+    left: 90px;
+    top: 200px;
+    px;
+}
+
+#pic1 {
+    position: absolute;
+    left: 90px;
+    top: 125px;
+    color: #333;
+    font-size: 25px;
+    font-family: Gupter;
+}
+
+
+.card2 {
+    background-image: url(Images/card\ picture\ 2.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 420px;
+    height: 230px;
+    position: absolute;
+    left: 500px;
+    top: 480px;
+}
+
+#pic2 {
+    position: absolute;
+    left: 500px;
+    top: 430px;
+    color: #333;
+    font-size: 25px;
+    font-family: Gupter;
+}
+
+.card3 {
+    background-image: url(Images/card\ picture\ 3.JPG);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 330px;
+    px;
+    height: 420px;
+    position: absolute;
+    left: 90px;
+    top: 700px;
+    px;
+}
+
+#pic3 {
+    position: absolute;
+    left: 90px;
+    top: 765px;
+    color: #333;
+    font-size: 25px;
+    font-family: Gupter;
+}
+
+.card4 {
+    background-image: url(Images/card\ picture\ 4.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 440px;
+    height: 600px;
+    position: absolute;
+    left: 500px;
+    top: 950px;
+}
+
+#pic4 {
+    position: absolute;
+    left: 500px;
+    top: 865px;
+    color: #333;
+    font-size: 25px;
+    font-family: Gupter;
+}
+
+.card5 {
+    background-image: url(Images/card\ picture\ 5.JPG);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 330px;
+    height: 480px;
+    position: absolute;
+    left: 90px;
+    top: 1350px;
+    px;
+
+}
+
+#pic5 {
+    position: absolute;
+    left: 90px;
+    top: 1300px;
+    color: #333;
+    font-size: 25px;
+    font-family: Gupter;
+}
+
+
+.black {
+    width: 100%;
+    height: 700px;
+    background-color: black;
+    position: relative;
+    margin-top: 400px;
+}
+
+
+.black .top {
+    color: white;
+    position: absolute;
+    font-family: Poppins;
+    font-size: 14px;
+    top: 130px;
+    left: 120px;
+}
+
+.black .middle {
+    color: white;
+    position: absolute;
+    font-family: Gupter;
+    font-size: 47px;
+    top: 170px;
+    left: 120px;
+}
+
+.black .bottom {
+    color: white;
+    position: absolute;
+    font-family: Poppins;
+    font-size: 14px;
+    top: 410px;
+    left: 120px;
+}
+
+.black .pic {
+    width: 350px;
+    height: 193px;
+    background-image: url(Images/pic-for-black.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 120px;
+    right: 90px;
+
+}
+
+.black .pic-text {
+    color: #777;
+    position: absolute;
+    font-family: Poppins;
+    font-size: 14px;
+    top: 325px;
+    right: 158px;
+}
+
+
+.black-btn {
+    background-color: white;
+    border-radius: 20px;
+    border: none;
+    width: 160px;
+    height: 35px;
+    position: absolute;
+    top: 570px;
+    left: 120px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.black-btn p {
+    font-size: 14px;
+    font-family: Poppins;
+    position: relative;
+    left: 7px;
+    cursor: pointer;
+}
+
+.black-btn div {
+    width: 20px;
+    height: 20px;
+    background-image: url(Images/Right\ dropdown\ icon.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    right: -20px;
+    cursor: pointer;
+
+}
+
+.black-btn:hover {
+    color: white;
+    background-color: rgb(109, 81, 235);
+
+}
+
+.white {
+    width: 100%;
+    height: 370px;
+}
+
+
+.white .follow {
+    font-family: Gupter;
+    font-size: 45px;
+    position: relative;
+    top: 130px;
+    left: 250px;
+}
+
+.logos{
+    display: flex;
+    position: relative;
+    left: 300px;
+    gap: 70px;
+}
+
+.logos .facebook{
+    background-image: url(Images/facebook-brands-solid.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 40px;
+    height: 40px;
+    position: relative;
+    top: 180px;
+    /* left: 300px; */
+    
+
+}
+
+
+.logos .instagram{
+    background-image: url(Images/instagram-brands-solid.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 40px;
+    height: 40px;
+    position: relative;
+    top: 180px;
+    /* left: 420px; */
+    
+
+}
+
+.logos .tiktok{
+    background-image: url(Images/tiktok-brands-solid.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 40px;
+    height: 40px;
+    position: relative;
+    top: 180px;
+    /* left: 420px; */
+    
+
+}
+
+.logos .youtube{
+    background-image: url(Images/youtube-brands-solid.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 40px;
+    height: 40px;
+    position: relative;
+    top: 180px;
+    /* left: 420px; */
+    
+}
+
+
